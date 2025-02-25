@@ -21,8 +21,8 @@ Ensure **Docker** is installed on your system.
 ### Download Docker Image & Run the Application
 
 ```bash
-docker pull andrewpechersky007/comment-classifier:latest
-docker run -p 5000:5000 andrewpechersky007/comment-classifier
+docker pull FyntikUA/Comments_classifier:latest
+docker run -p 5000:5000 FyntikUA/Comments_classifier
 ```
 
 ### Accessing the Application
@@ -53,14 +53,20 @@ Once the container is running, the app will be available at: **[http://localhost
 | Identity Hate  | 0.90      | 0.73    | 0.81     | 654     |
 
 ## Встановлення та Використання
+
 На вашому комп'ютері має бути встановлений **Docker**
+
 ### Завантаження Docker-образу та установка
+
 ```bash
-docker pull andrewpechersky007/comment-classifier:latest
-docker run -p 5000:5000 andrewpechersky007/comment-classifier
+docker pull FyntikUA/Comments_classifier:latest
+docker run -p 5000:5000 FyntikUA/Comments_classifier:latest
 ```
+
 ### Доступ до Додатку
+
 Після запуску контейнера, додаток буде доступний за адресою http://localhost:5000/
+
 ### Використання
 1. Перейдіть на URL: **[http://localhost:5000/](http://localhost:5000/)**
 2. Введіть коментар у відповідну форму.  
