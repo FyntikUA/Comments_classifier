@@ -21,8 +21,8 @@ Ensure **Docker** is installed on your system.
 ### Download Docker Image & Run the Application
 
 ```bash
-docker pull FyntikUA/Comments_classifier:latest
-docker run -p 5000:5000 FyntikUA/Comments_classifier
+docker pull andrewpechersky007/comment-classifier:latest
+docker run -p 5000:5000 andrewpechersky007/comment-classifier
 ```
 
 ### Accessing the Application
@@ -59,8 +59,8 @@ Once the container is running, the app will be available at: **[http://localhost
 ### Завантаження Docker-образу та установка
 
 ```bash
-docker pull FyntikUA/Comments_classifier:latest
-docker run -p 5000:5000 FyntikUA/Comments_classifier:latest
+docker pull andrewpechersky007/comment-classifier:latest
+docker run -p 5000:5000 andrewpechersky007/comment-classifier
 ```
 
 ### Доступ до Додатку
